@@ -26,6 +26,10 @@
 
       function createPassword(){
          let password = "";
+         password += upperCase[Math.floor(Math.ramdom() * upperCase.length)];
+         password += lowerCase[Math.floor(Math.ramdom() * lowerCase.length)];
+         password += number[Math.floor(Math.ramdom() * number.length)];
+         password += symbol[Math.floor(Math.ramdom() * symbol.length)];
       }
    </script>
 </body>
